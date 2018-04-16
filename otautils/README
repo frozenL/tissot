@@ -1,0 +1,14 @@
+otautils
+
+OTA Utility based on @iuss unpacker script [0].
+
+Functions:
+
+- Extract OTA Link from ADB
+- Unpack OTA package into .img image partitions
+- Flash images to device via fastboot
+- Make TWRP flashable zip file
+
+Run ./otautils.sh to get started.
+
+[0] = https://gist.github.com/ius/42bd02a5df2226633a342ab7a9c60f15
